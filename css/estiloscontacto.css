@@ -1,0 +1,104 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-color:#27262c;
+	background-image:url("../images/burried.png");
+}
+
+.cabecera{
+	margin-left:30px;
+	margin-top:10px;
+	color:white;
+}
+
+.botonera{
+	width:800px;
+	float:right;
+}
+
+.botonera ul li a{
+	background-color:black;
+	padding: 5px 30px;
+	color:white;
+	display:block;
+	list-style-type:none;
+	text-decoration:none;
+	transition: all 0.5s;
+	float:right;
+}
+
+	
+.botonera ul li a:hover{
+	background-color: #3f3f3f	;
+	border-bottom:1px solid black;
+}
+
+.contenedor{
+	clear:both;
+	width:600px;
+	height:500px;
+	margin:auto;
+	margin-top:80px;
+	
+}
+
+ .contacto{
+	margin-left:30px;
+	border: 1px solid #CED5D7;
+	border-radius: 6px;
+	padding: 45px 45px 20 px;
+	margin-top: 50 px;
+	background-color: white;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+ }
+
+.contacto label{
+	display: block;
+	margin-left:20px;
+	margin-top:15px;
+	font-weight:bold;
+}
+
+.contacto div{
+	margin-bottom: 15px;
+	margin-left:20px;
+}
+
+.contacto input[type='text'], .contacto textarea{
+	padding: 7px 6px;
+	width: 510px;
+	border:1px solid #CED5D7;
+	resize: none;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	margin: 5px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+	outline:none;
+	box-shadow: 0 0 0 3px #dde9ec;
+}
+
+.contacto input[type='submit']{
+	border:1px solid #CED5D7;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6;
+	background: -moz-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+	background: -webkit-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+}
+	
+.contacto input[type='submit']:hover{
+	background: #edfcff;
+	background: -moz-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+	background: -webkit-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+}
+
+.contacto input[type='submit']:active{
+	background: #cfe6ef;
+	background: -moz-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
+	background: -webkit-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
+}

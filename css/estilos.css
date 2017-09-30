@@ -1,0 +1,297 @@
+*{
+	/*no heredables*/
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	/*background-color:#27262c;*/
+	background-image:url("../images/burried.png");
+}
+.cabecera{
+	background-color:white;
+	width:800px;
+	height:82px;
+	float:left;
+		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan 	overflow:auto;
+	overflow:auto;*/
+}
+
+.cabecera h1{
+	color:#000000;
+	font-size: 24px;
+	font-style:bold;
+	margin:35px;
+	margin-left:0;
+	float:left;
+	list-style-type:none;
+}
+.cabecera img{
+	float:left;
+	margin:10px;
+	margin-left:10;
+}
+
+
+.botonera{
+	background-color:black;
+	padding:10px 10px 20px 20px;
+		
+}
+
+.botonera ul{
+	background-color:black;
+	list-style-type:none;
+}
+.botonera ul li a{
+	background-color:black;
+	padding:10px 10px;
+	color:white;
+	display:block;
+	float:right;
+	transition: all 0.5s;
+	text-decoration:none;
+
+}
+
+	
+.botonera ul li a:hover{
+	background-color: #3f3f3f	;
+	border-bottom:1px solid black;
+}
+.slider{
+	background-color:black;
+	margin-top:0;
+	float:left;
+}
+.contenedor{
+	clear:both;
+	max-width:800px;
+	height:1180px;
+	margin:auto;
+	background-color:grey;
+	
+
+}
+
+
+
+.objetivos{
+	margin:auto;
+	margin-top:0px;
+	text-align:center;
+	padding:5px 5px;
+	width:800px;
+	height:285px;
+	font-size:9;
+	float:left;
+	background-image: linear-gradient(#E9E3E3 10%, grey);
+
+}
+.objetivo1{
+	margin:auto;
+	padding:10px 10px;
+	width:250px;
+	height:280px;
+	font-size:9;
+	float:left;
+	border:2px solid black;
+	font-family: 'Wendy One', sans-serif;
+}
+
+.objetivo1 img:hover{
+	filter: opacity(.5);}
+
+.objetivo1 p{
+	font-family: 'Nunito', sans-serif;
+}
+
+
+.objetivo2{
+	margin:auto;
+	margin-left: 20px;
+	padding:10px 10px;
+	width:250px;
+	height:280px;
+	font-size:9;
+	float:left;
+	border:2px solid black;
+	font-family: 'Wendy One', sans-serif;
+}
+.objetivo2 p{
+	font-family: 'Nunito', sans-serif;
+}
+.objetivo2 img:hover{
+	filter: opacity(.5);}
+
+.objetivo3{
+	margin:auto;
+	padding:10px 10px;
+	width:250px;
+	height:280px;
+	font-size:9;
+	float: right;
+	border:2px solid black;
+	font-family: 'Wendy One', sans-serif;
+}
+
+.objetivo3 p{
+	font-family: 'Nunito', sans-serif;
+}
+.objetivo3 img:hover{
+	filter: opacity(.5);}
+
+#servicios{
+		  position: fixed;
+		  color:black;
+		  bottom:50px;
+		  z-index: 999;
+		  float:left;
+		  margin-left:0;
+		  margin-right:0;
+		  padding:20px 20px;
+		  margin-top:20px;
+		  font-family:'Arvo';
+		  font-size:10;
+		  background-color:grey;
+		  border:5px solid black;
+		  width:800px;
+}
+
+#servicios li{
+	margin-left:200px;
+}
+.pie{
+	margin:auto;
+	margin-left:260px;
+	margin-top:650px;
+	padding:30px;
+	width:800px;
+	height:300px;
+	font-size:9;
+	clear:both;
+	font-family: 'Righteous';
+}
+.direccion{
+	font-size:12;
+	
+	
+}
+.telefono{
+	font-size:10;
+	
+
+}
+.diseñado{
+	margin-left:200px;
+	font-size:9;
+}
+
+
+
+.pag-contacto .cabecera h1{
+	color:#000000;
+	font-size: 24px;
+	font-family: sacrify;
+	font-style:bold;
+	margin:35px;
+	margin-left:0;
+	float:left;
+}
+.pag-contacto .cabecera img{
+	float:left;
+	margin:10px;
+	margin-left:10;
+}
+
+
+.pag-contacto .botonera{
+	background-color:black;
+	padding: 37px 37px;
+	margin:0;
+	width:800px;
+
+}
+
+.pag-contacto .botonera ul li a{
+	background-color:black;
+	padding: 5px 40px;
+	color:white;
+	display:block;
+	float:right;
+	text-decoration:none;
+	transition: all 0.5s;
+	list-style-type: none;
+}
+.pag-contacto .botonera ul li a:hover{
+	background-color: #3f3f3f	;
+	border-bottom:1px solid black;
+	
+}
+
+.pag-contacto .contenedor{
+	clear:both;
+	width:800px;
+	height:1000px;
+	margin:auto;
+	background-color:#9f9f9f;
+	
+
+}
+
+.pag-contacto .contactos{
+	border: 1px solid #CED5D7;
+	border-radius: 6px;
+	padding: 45px 45px 20 px;
+	margin-top: 50 px;
+	background-color: white;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+`}
+
+.pag-contacto .contactos .contacto label{
+	display: block;
+	font-weight:bold;
+}
+
+.contacto div{
+	margin-bottom: 15px;
+}
+
+.contacto input[type='text'], .contacto textarea{
+	padding: 7px 6px;
+	width:294px;
+	border:1px solid #CED5D7;
+	resize: none;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	margin: 5px 0;
+}
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+	outline:none;
+	box-shadow: 0 0 0 3px #dde9ec;
+}
+
+.contacto input[type='submit']{
+	border:1px solid #CED5D7;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	padding: 8px 16px;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6;
+	background: -moz-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+	background: -webkit-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+}
+	
+.contacto input[type='submit']:hover{
+	background: #edfcff;
+	background: -moz-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+	background: -webkit-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
+}
+
+.contacto input[type='submit']:active{
+	background: #cfe6ef;
+	background: -moz-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
+	background: -webkit-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
+}
+	
