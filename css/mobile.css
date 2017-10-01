@@ -15,8 +15,8 @@ body{
 
 .cabecera{
 	background-color:white;
-	width:330px;
-	height:82px;
+	width:450px;
+	height:80px;
 	float:left;
 		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan;
 	overflow:auto;*/
@@ -24,7 +24,7 @@ body{
 
 .cabecera h1{
 	color:#000000;
-	font-size: 24px;
+	font-size: 20px;
 	font-style:bold;
 	margin:35px;
 	margin-left:0;
@@ -33,15 +33,14 @@ body{
 }
 .cabecera img{
 	float:left;
-	margin-top:10px;
+	margin:10px;
 	margin-left:10;
 }
-
 /*CONTENEDOR*/
 .contenedor{
-	clear:both;
+	float:left;
 	max-width:320px;
-	height:1200px;
+	height:1000px;
 
 	
 }
@@ -50,17 +49,17 @@ body{
 
 .botonera{
 	background-color:black;
-	
+    padding:5px 5px;
+   
 		
 }
 
 .botonera ul{
-	background-color:black;
-	list-style-type:none;
+		list-style-type:none;
 }
 .botonera ul li a{
 	background-color:black;
-	padding:10px 10px;
+	padding:5px 5px;
 	color:white;
 	display:block;
 	float:right;
@@ -74,12 +73,13 @@ body{
 }
 
 
+
 /*SLIDER*/
 
 .slider{
 	background-color:black;
 	margin-top:0;
-	margin-left:0;
+	margin-left:10px;
 	float:left;
 }
 
@@ -87,10 +87,10 @@ body{
 
 .objetivos{
 	margin:auto;
-	padding-top:10px;
+	padding-top:5px;
 	text-align:center;
 	width:330px;
-	height:1250px;
+	height:1200px;
 	font-size:9;
     background-image: linear-gradient(#E9E3E3 10%, grey);
     float:left;
@@ -98,7 +98,7 @@ body{
 }
 .objetivo1, .objetivo2, .objetivo3{
 	padding:10px;
-    margin-left:150px;
+    margin-left:30px;
     margin-bottom:20px;
 	width:250px;
 	height:350px;
