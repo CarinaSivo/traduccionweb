@@ -76,8 +76,7 @@ body{
 /*SLIDER*/
 
 .slider{
-    background: url(images/slide/slide8.jpg) center center cover no-repeat fixed;
-    float:left;
+      float:left;
 
 }
 
@@ -185,8 +184,3 @@ body{
 }
 	
 
-@media (max-width:767px){
-	     .slider {
-            background-image: url(images/slide/slide8.jpg);
-        }
-    }
