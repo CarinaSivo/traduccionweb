@@ -90,7 +90,8 @@ body{
 	padding:50px 50px;
 	width:346px;
 	height:285px;
-	font-size:9;
+    font-size:9;
+    float:left;
 	
 }
 .objetivo1, .objetivo2, .objetivo3{
@@ -101,7 +102,8 @@ body{
 	height:280px;
 	font-size:9;
 	border:2px solid black;
-	font-family: 'Wendy One', sans-serif;
+    font-family: 'Wendy One', sans-serif;
+    float:left;
 }
 
 .objetivo1 p, .objetivo2 p, .objetivo3 p{
@@ -109,7 +111,7 @@ body{
 }
 
 
-/
+
 
 
 /*PIE*/
