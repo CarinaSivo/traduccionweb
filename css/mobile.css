@@ -77,6 +77,7 @@ body{
 
 .slider{
     background: url(images/slide/slide8.jpg) center center cover no-repeat fixed;
+    float:left;
 
 }
 
