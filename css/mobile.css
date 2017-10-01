@@ -1,4 +1,6 @@
 /*Estilos Traduccion WEB MOBILE*/
+*Estilos Traduccion WEB*/
+
 *{
 	/*no heredables*/
 	margin:0;
@@ -6,7 +8,6 @@
 	box-sizing:border-box;
 }
 body{
-    background-size: cover;
 	background-image:url("../images/burried.png");
 }
 
@@ -14,7 +15,7 @@ body{
 
 .cabecera{
 	background-color:white;
-	width:800px;
+	width:330px;
 	height:82px;
 	float:left;
 		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan;
@@ -32,24 +33,24 @@ body{
 }
 .cabecera img{
 	float:left;
-	margin:10px;
+	margin-top:10px;
 	margin-left:10;
 }
 
 /*CONTENEDOR*/
 .contenedor{
 	clear:both;
-	width:346px;
-	height:1180px;
-	margin:auto;
-	background-color:grey;
+	max-width:320px;
+	height:1200px;
+
+	
 }
 
 /*BOTONERA*/
 
 .botonera{
 	background-color:black;
-	padding:10px 10px 20px 20px;
+	
 		
 }
 
@@ -76,66 +77,42 @@ body{
 /*SLIDER*/
 
 .slider{
-      background-color:grey;
-      float:left;
-
+	background-color:black;
+	margin-top:0;
+	margin-left:0;
+	float:left;
 }
 
 /*OBJETIVOS*/
 
 .objetivos{
 	margin:auto;
-	margin-top:0px;
+	padding-top:10px;
 	text-align:center;
-	padding:100px 100px;
-	width:346px;
-	height:285px;
-    font-size:9;
-    float: both;
-	
+	width:330px;
+	height:1200px;
+	font-size:9;
+    background-image: linear-gradient(#E9E3E3 10%, grey);
+    float:left;
+
 }
 .objetivo1, .objetivo2, .objetivo3{
-	margin:auto;
-	padding:50px 50px;
-	margin-left:30px;
+	padding:10px;
+    margin-left:30px;
+    margin-bottom:20px;
 	width:250px;
-	height:280px;
+	height:380px;
 	font-size:9;
-	border:2px solid black;
-    font-family: 'Wendy One', sans-serif;
-    
+	float:left;
+	border:1px solid black;
+	font-family: 'Wendy One', sans-serif;
 }
+
+.objetivo1 img:hover, .objetivo2 img:hover, .objetivo3 img:hover{
+	filter: opacity(.5);}
 
 .objetivo1 p, .objetivo2 p, .objetivo3 p{
 	font-family: 'Nunito', sans-serif;
-}
-
-
-
-
-
-/*PIE*/
-
-.pie{
-	margin:auto;
-	margin-left:260px;
-	margin-top:650px;
-	padding:30px;
-	width:800px;
-	height:300px;
-	font-size:9;
-	clear:both;
-	font-family: 'Righteous';
-}
-.direccion{
-	font-size:12;
-	
-	
-}
-.telefono{
-	font-size:10;
-	
-
 }
 
 
@@ -184,4 +161,3 @@ body{
 	background: -webkit-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
 }
 	
-
