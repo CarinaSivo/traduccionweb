@@ -99,8 +99,8 @@ body{
 }
 .objetivo1, .objetivo2, .objetivo3{
 	margin:auto;
-	padding:10px 10px;
-	margin-left:50px;
+	padding:20px 20px;
+	margin-left:30px;
 	width:250px;
 	height:280px;
 	font-size:9;
@@ -132,7 +132,8 @@ body{
 		  font-size:10;
 		  background-color:grey;
 		  border:5px solid black;
-		  width:800px;
+          width:346px;
+          align-self: auto;
 }
 
 #servicios li{
