@@ -39,7 +39,7 @@ body{
 /*CONTENEDOR*/
 .contenedor{
 	clear:both;
-	width:320px;
+	width:346px;
 	height:1180px;
 	margin:auto;
 	background-color:grey;
@@ -78,9 +78,7 @@ body{
 .slider{
     background: url(images/slide/slide7.jpg) center center cover no-repeat fixed;
     background-color:black;
-    margin-top:0;
-	margin-left:0;
-	float:left;
+    float:left;
 }
 
 /*OBJETIVOS*/
@@ -89,8 +87,8 @@ body{
 	margin:auto;
 	margin-top:0px;
 	text-align:center;
-	padding:5px 5px;
-	width:800px;
+	padding:30px 30px;
+	width:346px;
 	height:285px;
 	font-size:9;
 	float:left;
@@ -124,12 +122,10 @@ body{
 		  bottom:50px;
 		  z-index: 999;
 		  float:left;
-		  margin-left:0;
-		  margin-right:0;
 		  padding:20px 20px;
 		  margin-top:20px;
 		  font-family:'Arvo';
-		  font-size:10;
+		  font-size:9;
 		  background-color:grey;
 		  border:5px solid black;
           width:346px;
