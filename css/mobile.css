@@ -76,6 +76,7 @@ body{
 /*SLIDER*/
 
 .slider{
+      background-color:grey;
       float:left;
 
 }
@@ -86,23 +87,23 @@ body{
 	margin:auto;
 	margin-top:0px;
 	text-align:center;
-	padding:50px 50px;
+	padding:100px 100px;
 	width:346px;
 	height:285px;
     font-size:9;
-    float:left;
+    float: both;
 	
 }
 .objetivo1, .objetivo2, .objetivo3{
 	margin:auto;
-	padding:20px 20px;
+	padding:50px 50px;
 	margin-left:30px;
 	width:250px;
 	height:280px;
 	font-size:9;
 	border:2px solid black;
     font-family: 'Wendy One', sans-serif;
-    float:left;
+    
 }
 
 .objetivo1 p, .objetivo2 p, .objetivo3 p{
