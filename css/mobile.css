@@ -76,9 +76,8 @@ body{
 /*SLIDER*/
 
 .slider{
-    background: url(images/slide/slide7.jpg) center center cover no-repeat fixed;
-    background-color:black;
-    float:left;
+    background: url(images/slide/slide8.jpg) center center cover no-repeat fixed;
+
 }
 
 /*OBJETIVOS*/
@@ -91,9 +90,7 @@ body{
 	width:346px;
 	height:285px;
 	font-size:9;
-	float:left;
-	background-image: linear-gradient(#E9E3E3 10%, grey);
-
+	
 }
 .objetivo1, .objetivo2, .objetivo3{
 	margin:auto;
@@ -102,43 +99,16 @@ body{
 	width:250px;
 	height:280px;
 	font-size:9;
-	float:left;
 	border:2px solid black;
 	font-family: 'Wendy One', sans-serif;
 }
-
-.objetivo1 img:hover, .objetivo2 img:hover, .objetivo3 img:hover{
-	filter: opacity(.5);}
 
 .objetivo1 p, .objetivo2 p, .objetivo3 p{
 	font-family: 'Nunito', sans-serif;
 }
 
 
-/*SERVICIOS*/
-#servicios{
-		  position: fixed;
-		  color:black;
-		  bottom:50px;
-		  z-index: 999;
-		  float:left;
-		  padding:20px 20px;
-		  margin-top:20px;
-		  font-family:'Arvo';
-		  font-size:9;
-		  background-color:grey;
-		  border:5px solid black;
-          width:346px;
-          align-self: auto;
-}
-
-#servicios li{
-	margin-left:200px;
-}
-
-#servicios li::before{
-	content:url("flecha.png");
-}
+/
 
 
 /*PIE*/
@@ -164,10 +134,7 @@ body{
 	
 
 }
-.diseñado{
-	margin-left:200px;
-	font-size:9;
-}
+
 
 
 /*CONTACTO*/
@@ -215,66 +182,8 @@ body{
 }
 	
 
-
-
-.nav {
-	position:relative;
-	/*oculto el menu mobile*/
-	display:none;
-}
-.nav button {
-	background: none;
-	border:none;
-	cursor:pointer;
-}
-.nav-mobile {
-	list-style-type:none;
-	background-color:purple;
-	position:absolute;
-	right:30px;
-	max-width:400px;
-	display:none;
-}
-
-.nav-mobile a {
-	display:block;
-	padding:20px;
-	background-color:#060;
-	border-bottom: 1px dashed blue;
-	color:#FFF;
-	text-decoration:none;
-	
-}
-.nav-mobile a:hover{
-	background-color: orange;
-}
-
-.toggle {
-	display: block;
-	
-}
-.nav-desktop {
-	max-width:1000px;
-	background-color: violet;
-	display:flex;
-	list-style-type:none;
-}
-
-.nav-desktop li{
-		flex-grow:1;
-}
-
-.nav-desktop a{
-	display:block;
-	text-align:center;
-	padding:10px;
-}
-.nav-desktop a:hover{
-	color:black;
-}
-
 @media (max-width:767px){
 	     .slider {
-            background-image: url(images/slide/slide7.jpg);
+            background-image: url(images/slide/slide8.jpg);
         }
     }
