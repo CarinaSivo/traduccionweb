@@ -1,3 +1,5 @@
+/*Estilos Traduccion WEB*/
+
 *{
 	/*no heredables*/
 	margin:0;
@@ -5,15 +7,17 @@
 	box-sizing:border-box;
 }
 body{
-	/*background-color:#27262c;*/
 	background-image:url("../images/burried.png");
 }
+
+/*CABECERA*/
+
 .cabecera{
 	background-color:white;
 	width:800px;
 	height:82px;
 	float:left;
-		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan 	overflow:auto;
+		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan;
 	overflow:auto;*/
 }
 
@@ -32,6 +36,16 @@ body{
 	margin-left:10;
 }
 
+/*CONTENEDOR*/
+.contenedor{
+	clear:both;
+	max-width:800px;
+	height:1180px;
+	margin:auto;
+	background-color:grey;
+}
+
+/*BOTONERA*/
 
 .botonera{
 	background-color:black;
@@ -51,30 +65,24 @@ body{
 	float:right;
 	transition: all 0.5s;
 	text-decoration:none;
-
 }
 
-	
 .botonera ul li a:hover{
 	background-color: #3f3f3f	;
 	border-bottom:1px solid black;
 }
+
+
+/*SLIDER*/
+
 .slider{
 	background-color:black;
 	margin-top:0;
+	margin-left:0;
 	float:left;
 }
-.contenedor{
-	clear:both;
-	max-width:800px;
-	height:1180px;
-	margin:auto;
-	background-color:grey;
-	
 
-}
-
-
+/*OBJETIVOS*/
 
 .objetivos{
 	margin:auto;
@@ -88,9 +96,10 @@ body{
 	background-image: linear-gradient(#E9E3E3 10%, grey);
 
 }
-.objetivo1{
+.objetivo1, .objetivo2, .objetivo3{
 	margin:auto;
 	padding:10px 10px;
+	margin-left:10px;
 	width:250px;
 	height:280px;
 	font-size:9;
@@ -99,48 +108,15 @@ body{
 	font-family: 'Wendy One', sans-serif;
 }
 
-.objetivo1 img:hover{
+.objetivo1 img:hover, .objetivo2 img:hover, .objetivo3 img:hover{
 	filter: opacity(.5);}
 
-.objetivo1 p{
+.objetivo1 p, .objetivo2 p, .objetivo3 p{
 	font-family: 'Nunito', sans-serif;
 }
 
 
-.objetivo2{
-	margin:auto;
-	margin-left: 20px;
-	padding:10px 10px;
-	width:250px;
-	height:280px;
-	font-size:9;
-	float:left;
-	border:2px solid black;
-	font-family: 'Wendy One', sans-serif;
-}
-.objetivo2 p{
-	font-family: 'Nunito', sans-serif;
-}
-.objetivo2 img:hover{
-	filter: opacity(.5);}
-
-.objetivo3{
-	margin:auto;
-	padding:10px 10px;
-	width:250px;
-	height:280px;
-	font-size:9;
-	float: right;
-	border:2px solid black;
-	font-family: 'Wendy One', sans-serif;
-}
-
-.objetivo3 p{
-	font-family: 'Nunito', sans-serif;
-}
-.objetivo3 img:hover{
-	filter: opacity(.5);}
-
+/*SERVICIOS*/
 #servicios{
 		  position: fixed;
 		  color:black;
@@ -166,6 +142,8 @@ body{
 	content:url("flecha.png");
 }
 
+
+/*PIE*/
 
 .pie{
 	margin:auto;
@@ -194,70 +172,7 @@ body{
 }
 
 
-
-.pag-contacto .cabecera h1{
-	color:#000000;
-	font-size: 24px;
-	font-family: sacrify;
-	font-style:bold;
-	margin:35px;
-	margin-left:0;
-	float:left;
-}
-.pag-contacto .cabecera img{
-	float:left;
-	margin:10px;
-	margin-left:10;
-}
-
-
-.pag-contacto .botonera{
-	background-color:black;
-	padding: 37px 37px;
-	margin:0;
-	width:800px;
-
-}
-
-.pag-contacto .botonera ul li a{
-	background-color:black;
-	padding: 5px 40px;
-	color:white;
-	display:block;
-	float:right;
-	text-decoration:none;
-	transition: all 0.5s;
-	list-style-type: none;
-}
-.pag-contacto .botonera ul li a:hover{
-	background-color: #3f3f3f	;
-	border-bottom:1px solid black;
-	
-}
-
-.pag-contacto .contenedor{
-	clear:both;
-	width:800px;
-	height:1000px;
-	margin:auto;
-	background-color:#9f9f9f;
-	
-
-}
-
-.pag-contacto .contactos{
-	border: 1px solid #CED5D7;
-	border-radius: 6px;
-	padding: 45px 45px 20 px;
-	margin-top: 50 px;
-	background-color: white;
-	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
-`}
-
-.pag-contacto .contactos .contacto label{
-	display: block;
-	font-weight:bold;
-}
+/*CONTACTO*/
 
 .contacto div{
 	margin-bottom: 15px;
