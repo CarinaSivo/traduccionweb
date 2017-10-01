@@ -161,6 +161,12 @@ body{
 #servicios li{
 	margin-left:200px;
 }
+
+#servicios li::before{
+	content:url("flecha.png");
+}
+
+
 .pie{
 	margin:auto;
 	margin-left:260px;
