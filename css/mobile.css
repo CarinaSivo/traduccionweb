@@ -15,9 +15,10 @@ body{
 
 .cabecera{
 	background-color:white;
-	width:450px;
+	width:320px;
 	height:80px;
 	float:left;
+	
 		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan;
 	overflow:auto;*/
 }
@@ -48,16 +49,18 @@ body{
 /*BOTONERA*/
 
 .botonera{
+	
 	background-color:black;
-    padding:5px 5px;
-   
-		
+	padding:5px 5px;
 }
 
 .botonera ul{
+	
 		list-style-type:none;
+	
 }
 .botonera ul li a{
+	position:relative;
 	background-color:black;
 	padding:5px 5px;
 	color:white;
@@ -65,6 +68,8 @@ body{
 	float:right;
 	transition: all 0.5s;
 	text-decoration:none;
+
+	
 }
 
 .botonera ul li a:hover{
@@ -79,7 +84,7 @@ body{
 .slider{
 	background-color:black;
 	margin-top:0;
-	margin-left:5px;
+	margin-left:0;
 	float:left;
 }
 
@@ -89,7 +94,7 @@ body{
 	margin:auto;
 	padding-top:5px;
 	text-align:center;
-	width:330px;
+	width:320px;
 	height:1200px;
 	font-size:9;
     background-image: linear-gradient(#E9E3E3 10%, grey);
@@ -98,7 +103,7 @@ body{
 }
 .objetivo1, .objetivo2, .objetivo3{
 	padding:10px;
-    margin-left:25px;
+    margin-left:30px;
     margin-bottom:20px;
 	width:250px;
 	height:350px;
