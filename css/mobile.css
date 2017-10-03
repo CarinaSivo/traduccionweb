@@ -41,9 +41,7 @@ body{
 .contenedor{
 	float:left;
 	max-width:320px;
-	height:1000px;
-
-	
+	height:1300px;
 }
 
 /*BOTONERA*/
@@ -95,7 +93,7 @@ body{
 	padding-top:5px;
 	text-align:center;
 	width:320px;
-	height:1200px;
+	height:1250px;
 	font-size:9;
     background-image: linear-gradient(#E9E3E3 10%, grey);
     float:left;
@@ -119,6 +117,17 @@ body{
 .objetivo1 p, .objetivo2 p, .objetivo3 p{
 	font-family: 'Nunito', sans-serif;
 }
+
+.pie{
+	position:absolute;
+	margin-left:55px;
+	width:320px;
+	margin-top:1550px;
+	font-size:11;
+	float:left;
+	font-family: 'Righteous';
+}
+
 
 
 
@@ -166,3 +175,4 @@ body{
 	background: -webkit-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
 }
 	
+
