@@ -74,11 +74,15 @@ body{
 	border:1px solid #CED5D7;
 	resize: none;
 	box-shadow: 0 0 0 3px #EEF5F7;
+	color:orange;
 	margin: 5px 0;
 }
+
 .contacto input[type='text']:focus, .contacto textarea:focus{
-	outline:none;
 	box-shadow: 0 0 0 3px #dde9ec;
+	background   : rgba(0,0,0,.1);
+	border-radius: 5px;
+	outline      : none;
 }
 
 .contacto input[type='submit']{
@@ -94,7 +98,7 @@ body{
 }
 	
 .contacto input[type='submit']:hover{
-	background: #edfcff;
+	background: #02504C;
 	background: -moz-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
 	background: -webkit-linear-gradient(top,#edfcff 0%,#cfe6ef 100%);
 }
