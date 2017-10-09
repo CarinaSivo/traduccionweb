@@ -91,7 +91,6 @@ body{
 	padding:5px 5px;
 	width:800px;
 	height:285px;
-	font-size:9;
 	float:left;
 	background-image: linear-gradient(#E9E3E3 10%, grey);
 
@@ -102,17 +101,33 @@ body{
 	margin-left:10px;
 	width:250px;
 	height:280px;
-	font-size:9;
 	float:left;
-	border:2px solid black;
+	border:3px solid black;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.objetivo1 h3, .objetivo2 h3, .objetivo3 h3{
+	font-size:22;
+	font-family: 'Wendy One', sans-serif;
+}
+
+
+.objetivo1 p, .objetivo2 p, .objetivo3 p{
+	font-size:8;
 	font-family: 'Wendy One', sans-serif;
 }
 
 .objetivo1 img:hover, .objetivo2 img:hover, .objetivo3 img:hover{
-	filter: opacity(.5);}
+    filter: opacity(.5);
+}
 
-.objetivo1 p, .objetivo2 p, .objetivo3 p{
-	font-family: 'Nunito', sans-serif;
+.objetivo1 , .objetivo2 , .objetivo3 {
+    transition:box-shadow 1s, transform 50ms, filter 10ms ease-in-out; 
+}
+
+.objetivo1:hover, .objetivo2:hover, .objetivo3:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 }
 
 
