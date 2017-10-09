@@ -23,14 +23,21 @@
 				</ul>	
 			</div><!--cierra botonera-->
 			
-			<form class="contacto">
-					<div><label> Tu nombre:</label><input type="text" value=" "></div>
-					<div><label> Tu mail:</label><input type="text" value=" "></div>
+			<form  action="enviar.php" method="post">
+				<div class="contacto">
+					<div><label> Tu nombre:</label>
+						<input title="Se necesita un nombre" type="text" name="nombre" required/>
+					</div>
+					<div><label> Tu mail:</label>
+						<input title="mail@example.com" type="text" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9
+						-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
+					</div>
 					<div><label> Asunto:</label><input type="text" value=" "></div>
 					<div><label> Mensaje:</label><textarea rows="6"></textarea></div>
-					<div><input type="submit" value="Envia Mensaje"></div>
+					<div><input type="submit" value="Enviar"></div>
+				</div>
 			</form>
-			
+								
 				
 		</div><!-- Cierra .contenedor -->
 	</body>
