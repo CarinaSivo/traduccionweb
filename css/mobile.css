@@ -9,7 +9,7 @@
 }
 
 body{
-	background-image:url("../images/burried.png");
+	background-image: linear-gradient(#E9E3E3 10%, grey);
 	width: 320px;
 }
 /*CABECERA*/

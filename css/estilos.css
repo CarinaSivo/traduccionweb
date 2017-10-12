@@ -76,11 +76,20 @@ body{
 /*SLIDER*/
 
 .slider{
+	position: absolute;
 	background-color:black;
 	margin-top:0;
 	margin-left:0;
 	float:left;
 }
+.slider1{
+	
+	background-color:white;
+	margin-top:0;
+	margin-left:0;
+	float:left;
+}
+
 
 /*OBJETIVOS*/
 
@@ -103,7 +112,7 @@ body{
 	height:280px;
 	float:left;
 	border:3px solid black;
-    font-family: 'Wendy One', sans-serif;
+   
 }
 
 .objetivo1 h3, .objetivo2 h3, .objetivo3 h3{
@@ -126,7 +135,7 @@ body{
 }
 
 .objetivo1:hover, .objetivo2:hover, .objetivo3:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
     box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 }
 
@@ -163,7 +172,7 @@ body{
 .pie{
 	margin:auto;
 	margin-left:260px;
-	margin-top:650px;
+	margin-top:550px;
 	padding:30px;
 	width:800px;
 	height:300px;
@@ -201,7 +210,7 @@ body{
 	box-shadow: 0 0 0 3px #EEF5F7;
 	margin: 5px 0;
 }
-}
+
 .contacto input[type='text']:focus, .contacto textarea:focus{
 	outline:none;
 	box-shadow: 0 0 0 3px #dde9ec;
@@ -230,4 +239,31 @@ body{
 	background: -moz-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
 	background: -webkit-linear-gradient(top,#cfe6ef 0%,#edfcff 100%);
 }
+
+/*EFECTO PICAR*/
+
+@keyframes bounce {
+	0% {
+		transform:translateY(-100%);
+		opacity: 0;
+	}
 	
+	50% {
+	  transform:translateY(-100%);
+	}
+		
+	100% {
+	  transform:translateY(0);
+	  opacity: 1;
+	}
+
+}
+/*  */
+.slider{
+	
+	animation-name: bounce;
+	animation-duration: 10s;
+	animation-delay: 0.2s;
+	backface-visibility: hidden;
+	
+}
