@@ -41,7 +41,7 @@ body{
 .contenedor{
 	clear:both;
 	max-width:800px;
-	height:1200px;
+	height:1100px;
 	margin:auto;
 	background-color:grey;
 }
@@ -142,10 +142,9 @@ body{
 
 /*SERVICIOS*/
 #servicios{
-		  position: fixed;
-		  color:black;
+		   color:black;
 		  bottom:30px;
-		  z-index: 999;
+		  z-index: 999;
 		  float:left;
 		  margin-left:0;
 		  margin-right:0;
@@ -168,28 +167,32 @@ body{
 
 .pie{
 	margin:auto;
-	margin-left:260px;
-	margin-top:800px;
+	margin-left:250px;
 	padding:30px;
 	width:800px;
-	height:200px;
+	height:80px;
 	font-size:10;
 	clear:both;
 	font-family: 'Righteous';
+	float: left;
 }
 .direccion{
 	font-size:12;
+	float: left;
 	
 	
 }
 .telefono{
 	font-size:10;
+	float: left;
 	
+		
 
 }
 .diseñado{
-	margin-left:250px;
+	margin-left:480px;
 	font-size:9;
+	
 }
 
 
@@ -246,20 +249,19 @@ body{
 	}
 	
 	50% {
-	  transform:translateY(-100%);
+	  transform:translateY(-100%);
 	}
 		
 	100% {
-	  transform:translateY(0);
-	  opacity: 1;
+	  transform:translateY(0);
+	  opacity: 1;
 	}
 
 }
 /*  */
 .slider{
 	animation-name: aparecer;
-	animation-duration: 5s;
-	animation-delay: 0.2s;
+	animation-duration: 1s;
 	backface-visibility: hidden;
 	transition-timing-function: ease;
 	
@@ -285,6 +287,5 @@ body{
 				0 0 8px 7px #2E2E2E;
 }
 
-#texto {
-	float: left;
-}
+
+
