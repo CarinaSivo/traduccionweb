@@ -15,6 +15,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 		<link href="css/estilos.css" rel="stylesheet">
 		
 	</head>
@@ -84,17 +85,34 @@
 						
 			</div><!--cierra objetivos-->
 			
-			<div id="servicios">
-					<ul>
-						<marquee behaviour="ALTERNATE" bgcolor="grey" height="30px" font-size:60px>Nuestro Método</marquee>
-						<li>Contestamos consultas las 24 hs del día.</li>
-						<li>Preparamos un presupuesto detallado en poco tiempo.</li>
-						<li>Le asignamos el traductor que mejor se ajuste a su proyecto.</li>
-						<li>Entregamos los documentos finales en el formato indicado.</li>
+				
+				<div id="servicios">
+					<div id="move" data--50-bottom="
+						background-color: hsl(0, 1%, 50%);
+						transform: rotate(0deg); 
+						width: 0px; 
+						height: 0px;
+						opacity: 0;
+						line-height: 0px;" 				
+		
+						data-top="
+						background-color: hsl(0, 1%, 0%));
+						transform:rotate(360deg); 
+						width: 150px; 
+						height: 150px;
+						opacity: 1;
+						line-height: 80px;">Nuestro Método</div>
+						<br>
+						<br>
+						<p>Preparamos un presupuesto detallado en poco tiempo. <br>
+						Le asignamos el traductor que mejor se ajuste a su proyecto.<br>
+						Entregamos los documentos finales en el formato indicado.<br></p>
+						<marquee behaviour="ALTERNATE" bgcolor="grey" height="30px" font-size:60px>Contestamos consultas en el día</marquee>				
 						
-						
-					</ul>
-			</div>
+					
+					
+			
+				</div>
 			
 			<footer class="pie"><!---->
 				<div class="direccion">
@@ -103,8 +121,7 @@
 				</div>
 				<div class="telefono">
 					<p> Teléfono: +54 11 4197 7026</p>
-					<br>
-					<br>
+					
 					<br>
 				</div>
 					<div class="diseñado">
@@ -117,5 +134,9 @@
 			</footer>
 
 		</div><!--cierra contenedor-->
+		<script src="skrollr.min.js"></script>
+		<script type="text/javascript">
+			skrollr.init();
+		</script>
 	</body>
 </html>
