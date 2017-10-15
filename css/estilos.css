@@ -262,7 +262,7 @@ body{
 /*  */
 .slider{
 	animation-name: aparecer;
-	animation-duration: 1s;
+	animation-duration: 4s;
 	backface-visibility: hidden;
 	transition-timing-function: ease;
 	
