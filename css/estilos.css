@@ -413,7 +413,7 @@
 		animation-name: aparecer;
 		animation-duration: 2s;
 		backface-visibility: hidden;
-		transition-timing-function: ease;
+		transition-timing-function: ease-out 0.1s;
 	}
 	
 
