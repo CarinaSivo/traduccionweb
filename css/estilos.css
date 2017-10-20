@@ -101,9 +101,12 @@
 	.botonera{
 	
 		background-color:black;
-	
+		width:800px;
+		height:120px;
+		
+		/*BOTONERA
 		padding:10px 10px 20px 20px;
-	
+	*/
 			
 	
 	}
@@ -151,20 +154,34 @@
 	
 	
 	/*SLIDER*/
+	
+	.slider {
+		position: relative;
+		width: 100%; /* for IE 6 */
+		float: left;
+		z-index: 2;
+	}
 		
-	.slider{
-			position: absolute;
-			background-color:black;
-			margin-top:0;
-			margin-left:0;
-			float:left;
+	.slider h2 {
+		position: absolute;
+		top: 70px;
+		left: 0;
+		width: 100%;
+	}
+	.slider h2 span {
+		color: white;
+		font-family: 'Segoe Print', sans-serif;
+		margin-left: 350px;
+		float: left;
 	}
 	
 	.slider1{
+			position: absolute;
 			background-color:white;
 			margin-top:0;
 			margin-left:0;
-			float:left;
+			float: left;
+			z-index: 0;
 	}
 	
 	
@@ -175,29 +192,18 @@
 	
 	
 	
-	.objetivos{
-	
+	#objetivos{
 		margin:auto;
-	
 		margin-top:20px;
-	
 		text-align:center;
-	
 		padding:5px 5px;
-	
 		width:800px;
-	
 		height:285px;
-	
 		float:left;
-	
 		background-image: linear-gradient(#E9E3E3 10%, grey);
-	
-	
-	
 	}
 	
-	.objetivo1, .objetivo2, .objetivo3{
+	#objetivo1 {
 			margin:auto;
 			padding:10px 10px;
 			margin-left:10px;
@@ -208,36 +214,86 @@
 	
 	}
 	
-		
-	.objetivo1 h3, .objetivo2 h3, .objetivo3 h3{
+	#objetivo2 {
+		margin:auto;
+		padding:10px 10px;
+		margin-left:10px;
+		width:250px;
+		height:280px;
+		float:left;
+		border:2px solid black;
+
+	}
+	#objetivo3{
+		margin:auto;
+		padding:10px 10px;
+		margin-left:10px;
+		width:250px;
+		height:280px;
+		float:left;
+		border:2px solid black;
+
+	}
+	
+	#objetivo1 h3 {
 			font-size:22;
 			font-family: 'Wendy One', sans-serif;
-		}
+	}
 	
-		
-	.objetivo1 p, .objetivo2 p, .objetivo3 p{
+	#objetivo2 h3 {
+			font-size:22;
+			font-family: 'Wendy One', sans-serif;
+	}
+	
+	#objetivo3 h3 {
+			font-size:22;
+			font-family: 'Wendy One', sans-serif;
+	}
+
+	#objetivo1 p{
 			font-size:8;
 			color: blue;
 			font-family: 'Wendy One', sans-serif;
-		}
-			
-	.objetivo1 img:hover, .objetivo2 img:hover, .objetivo3 img:hover{
-			filter: opacity(.5);
-		}
-		
-	/*transicion
-	.objetivo1 , .objetivo2 , .objetivo3 {
-			transition:box-shadow 1s, transform 50ms, filter 10ms ease-in-out; 
 	}
-	*/
-		
-	.objetivo1:hover, .objetivo2:hover, .objetivo3:hover{
+
+	#objetivo2 p{
+			font-size:8;
+			color: blue;
+			font-family: 'Wendy One', sans-serif;
+	}
+
+	#objetivo3 p{
+			font-size:8;
+			color: blue;
+			font-family: 'Wendy One', sans-serif;
+	}
+			
+	#objetivo1 img:hover{
+			filter: opacity(.5);
+	}
+	
+	#objetivo2 img:hover{
+			filter: opacity(.5);
+	}
+	
+	#objetivo3 img:hover{
+			filter: opacity(.5);
+	}
+			
+	#objetivo1:hover{
 			transform: scale(1.1);
 			box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 	}
 	
-	
-	
+	#objetivo2:hover{
+		transform: scale(1.1);
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+	}
+
+	#objetivo3:hover{
+		transform: scale(1.1);
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+	}
 	
 	
 	/*SERVICIOS*/
@@ -436,19 +492,19 @@
 	
 	/*ANIMACION SLIDER  */
 	
-	.objetivo1
+	#objetivo1
 	{
 	animation-name: reaparecer;
 	animation-duration: 1s;
 	transition-timing-function: ease-out 0.1s;
 	}
-	.objetivo2
+	#objetivo2
 	{
 	animation-name: reaparecer;
 	animation-duration: 1s;
 	transition-timing-function: ease-out 0.1s;
 	}
-	.objetivo3
+	#objetivo3
 	{
 	animation-name: reaparecer;
 	animation-duration: 1s;
@@ -478,6 +534,3 @@
 	
 	}
 	
-	
-
-
