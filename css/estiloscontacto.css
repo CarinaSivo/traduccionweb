@@ -18,12 +18,14 @@ body{
 	float:right;
 }
 
+.botonera ul{
+	list-style-type:none;
+}
 .botonera ul li a{
 	background-color:black;
 	padding: 5px 30px;
 	color:white;
 	display:block;
-	list-style-type:none;
 	text-decoration:none;
 	transition: all 0.5s;
 	float:right;
@@ -45,16 +47,18 @@ body{
 	color:white;
 	background-color:brown;
 	float:left;
-	list-style-type:none;
-	text-decoration:none;
+		
 	
 }
-
+.botonera1 ul{
+	list-style-type:none;
+}
 .botonera1 ul li a{
 	background-color:black;
 	padding: 5px 30px;
 	color:white;
 	display:block;
+	text-decoration:none;
 	transition: all 0.5s;
 	float:right;
 }
