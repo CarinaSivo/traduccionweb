@@ -35,6 +35,29 @@ body{
 	border-bottom:1px solid black;
 }
 
+
+.botonera1{
+	width:550px;
+	height:100px;
+	margin:auto;
+	margin-left: 350px;
+	margin-top:80px;
+	color:white;
+	background-color:brown;
+	float:left;
+	list-style-type:none;
+	text-decoration:none;
+	
+}
+
+.botonera1 ul li a{
+	background-color:black;
+	padding: 5px 30px;
+	color:white;
+	display:block;
+	transition: all 0.5s;
+	float:right;
+}
 .contenedor{
 	clear:both;
 	width:600px;

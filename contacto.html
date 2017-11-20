@@ -26,14 +26,14 @@
 			<form  action="enviar.php" method="post">
 				<div class="contacto">
 					<div><label> Tu nombre:</label>
-						<input title="Se necesita un nombre" type="text" name="nombre" required/>
+						<input title="Se necesita un nombre" type="text" name="nombre" id="nombre" required/>
 					</div>
 					<div><label> Tu mail:</label>
 						<input title="mail@example.com" type="text" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9
-						-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
+						-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" id="email" required/>
 					</div>
-					<div><label> Asunto:</label><input type="text" value=" " name="asunto"></div>
-					<div><label> Mensaje:</label><textarea rows="6" name="mensaje"></textarea></div>
+					<div><label> Asunto:</label><input type="text" value=" " name="asunto" id="asunto"></div>
+					<div><label> Mensaje:</label><textarea rows="6" name="mensaje" id="mensaje"></textarea></div>
 					<div><input type="submit" value="Enviar"></div>
 				</div>
 			</form>

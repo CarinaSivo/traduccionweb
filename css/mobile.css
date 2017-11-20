@@ -1,5 +1,5 @@
 /*Estilos Traduccion WEB MOBILE*/
-*Estilos Traduccion WEB*/
+
 
 *{
 	/*no heredables*/
@@ -9,7 +9,6 @@
 }
 
 body{
-	background-image:url("../images/burried.png");
 	width: 320px;
 }
 /*CABECERA*/
@@ -20,14 +19,12 @@ body{
 	height:80px;
 	float:left;
 	
-		/*Hack* retoma el alto al elemento padre, cuyos hijos flotan;
-	overflow:auto;*/
+	
 }
 
 .cabecera h1{
 	color:#000000;
 	font-size: 20px;
-	font-style:bold;
 	margin:35px;
 	margin-left:0;
 	float:left;
@@ -41,7 +38,7 @@ body{
 /*CONTENEDOR*/
 .contenedor{
 	float:left;
-	width:250px;
+	width:320px;
 	height:1300px;
 }
 
@@ -49,31 +46,26 @@ body{
 
 .botonera{
 	background-color:black;
-	
+	width:320px;
 }
 
 .botonera ul{
 	list-style-type:none;
-	
-	
+	padding:5px 5px;
+
+
 }
 .botonera ul li a{
 	padding:5px 5px;
-	position:relative;
-	background-color:black;
 	color:white;
 	display:block;
 	float:right;
-	transition: all 0.5s;
 	text-decoration:none;
-
-	
 }
 
-.botonera ul li a:hover{
-	background-color: #3f3f3f	;
-	border-bottom:1px solid black;
-}
+
+
+
 
 
 
