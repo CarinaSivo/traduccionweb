@@ -101,7 +101,7 @@
 	.botonera{
 		background-color:black;
 		width:800px;
-		height:121px;
+		height:160px;
 		
 		/*BOTONERA
 		padding:10px 10px 20px 20px;
@@ -124,7 +124,7 @@
 	
 		background-color:black;
 	
-		padding:10px 10px;
+		padding:25px 25px;
 	
 		color:white;
 	
@@ -143,7 +143,7 @@
 	.botonera ul li a:hover{
 		background-color: #3f3f3f	;
 		border-bottom:1px solid black;
-		padding:10px 10px;
+		padding:20px 20px;
 	
 	}
 	
