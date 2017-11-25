@@ -99,10 +99,9 @@
 	
 	
 	.botonera{
-	
 		background-color:black;
 		width:800px;
-		height:120px;
+		height:121px;
 		
 		/*BOTONERA
 		padding:10px 10px 20px 20px;
@@ -142,10 +141,9 @@
 	
 	
 	.botonera ul li a:hover{
-	
 		background-color: #3f3f3f	;
-	
 		border-bottom:1px solid black;
+		padding:10px 10px;
 	
 	}
 	
@@ -153,11 +151,11 @@
 	
 	
 	
-	/*SLIDER*/
+	/* SLIDER
 	
 	.slider {
 		position: relative;
-		width: 100%; /* for IE 6 */
+		width: 100%; 
 		float: left;
 		z-index: 2;
 	}
@@ -174,7 +172,7 @@
 		margin-left: 350px;
 		float: left;
 	}
-	
+	*/
 	.slider1{
 			position: absolute;
 			background-color:white;
@@ -463,7 +461,7 @@
 		
 	}
 	
-	/*ANIMACION SLIDER  */
+	/*ANIMACION SLIDER 
 	
 	.slider{
 		animation-name: aparecer;
@@ -472,9 +470,6 @@
 		transition-timing-function: ease-out 0.1s;
 	}
 	
-
-	/*ANIMACION OBJETIVOS  */
-
 	@keyframes reaparecer
 		 {
 		0% {
@@ -489,8 +484,10 @@
 	  	opacity: 1;
 		}
 		}
-	
-	/*ANIMACION SLIDER  */
+		*/
+
+
+	/*ANIMACION OBJETIVOS  */
 	
 	#objetivo1
 	{
@@ -533,4 +530,6 @@
 						0 0 8px 7px #2E2E2E;
 	
 	}
+	
+
 	

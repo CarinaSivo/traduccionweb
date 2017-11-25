@@ -18,11 +18,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Segoe+Print" rel="stylesheet">
+		<!--<link href="https://fonts.googleapis.com/css?family=Segoe+Print" rel="stylesheet">-->
 		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 
 		<!--estilo-->
 		<link href="css/estilos.css" rel="stylesheet">
+		<link href="css/flexslider.css" rel="stylesheet">
+	
+
 	</head>
 
 
@@ -46,28 +49,57 @@
 				</ul>	
 			</nav><!--cierra botonera-->
 
-				
-				
-
-			<div class="slider"><!--slider/corrousel-->
-				<img src="images/slide/slide6.jpg" alt="">
-				<h2><span>Somos un grupo de traductores</span><br>
-					<span>especializados en la traducción</span><br>
-					<span> de Sitios Web.</span><br>
-					<span>Investigamos técnicamente </span><br>
-					<span>cada tema, para hacer </span><br>
-					<span>traducciones bien precisas</span><br>
-					<span>acorde al producto publicitado</span><br>
-				</h2>
+			<div class="flexslider">
+					<ul class="slides">
+					<!--
+						 <li>
+							 
+						<img src="images/slide/slide6.jpg" alt="Mundo Inicial">
+						<h2><span>Somos un grupo de traductores</span><br>
+							<span>especializados en la traducción</span><br>
+							<span> de Sitios Web.</span><br>
+							<span>Investigamos técnicamente </span><br>
+							<span>cada tema, para hacer </span><br>
+							<span>traducciones bien precisas</span><br>
+							<span>acorde al producto publicitado</span><br>
+						</h2> 
+						
+						</li>
+						-->
+						<li>
+								<img src="images/slide/slide8.jpg" alt="Mundo">
+						</li>
+						
+						<li>
+							<img src="images/slide/mundo2.jpg" alt="Mundo Traducciones">	
+						</li>
+	
+		
+						
+					</ul>
+				  </div>
+				  
+				 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+				 <script src="js/jquery.flexslider-min.js"></script>
+					<script>
+						$(window).load(function() {
+							$('.flexslider').flexslider({
+								animation: "slide"
+								
+						  });
+						});		
 			
 			
-			</div><!--cierra slider-->
+					</script>
 
-			<div class="slider1"><!--slider/corrousel-->
+			<!--abre botonera
+
+			<div class="slider1">
 				<img src="images/slide/mundobase.png" alt="">
-			</div><!--cierra slider-->
+			</div> 
+			cierra slider-->
 
-			
+	
 
 				
 
@@ -155,8 +187,7 @@
 			<script type="text/javascript">
 				skrollr.init();
 			</script>
-
-		
+ 			
 	</body>
 </html>
 
